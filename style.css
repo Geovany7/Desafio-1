@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: no-repeat black;
+    height: 100%;
+    
+}
+
+.imagemFundo1{
+    background: no-repeat url(fundo1.png);
+}
+
+.imagemFundo2{
+    background: no-repeat url(fundo2.png);
+}
+
+.imagemFundo3{
+    background: no-repeat url(fundo3.png);
+}
+
+.imagemFundo4{
+    background: no-repeat url(fundo4.png);
+}
+
+
+.seta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0 1.5%;
+    margin-top: 23%;
+}
+
+.setaEsquerda{
+    transform: scaleX(-1);
+    opacity: 0.5;
+}
+
+.setaEsquerda, .setaDireita{
+    width: 86px;
+}
+
+.informacao{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    height: 60%;
+    padding: 3%;
+    top: 15%;
+    left: 9%;
+    font-family: Roboto;
+    border-radius: 9px;
+    background-color: white;
+}
+
+.tituloDaInformacao{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.textoDaInformacao{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.botaoDaInformacao{
+    font-size: 30px;
+    color: #C50000;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1444px) {
+    .informacao{
+        top: 170px;
+        
+        width: 28%;
+        height: 60%;
+        padding: 2%;
+    }
+
+    .seta{
+        margin-top: 28%;
+    }
+
+    .tituloDaInformacao{
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .textoDaInformacao{
+        font-size: 23px;
+        font-weight: 300;
+    }
+
+    .setaEsquerda, .setaDireita{
+        width: 46px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1028px) {
+    .informacao{
+        top: 60px;
+        
+        width: 28%;
+        height: 76%;
+        padding: 3%;
+    }
+
+    .tituloDaInformacao{
+        font-size: 37px;
+        font-weight: 400;
+    }
+
+    .seta{
+        margin-top: 38%;
+    }
+
+    .textoDaInformacao{
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    .setaEsquerda, .setaDireita{
+        width: 46px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .informacao{
+        top: 20%;
+        left: 16%;
+        width: 59%;
+        height: 55%;
+        padding: 5%;
+    }
+
+    .seta{
+        margin-top: 46%;
+    }
+
+    .tituloDaInformacao{
+        font-size: 34px;
+        font-weight: 400;
+    }
+
+    .textoDaInformacao{
+        font-size: 21px;
+        font-weight: 300;
+    }
+
+    .setaEsquerda, .setaDireita{
+        width: 46px;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .informacao{
+        top: 80px;
+        left: 55px;
+        width: 59%;
+        height: 80%;
+        padding: 8%;
+    }
+
+    .seta{
+        margin-top: 92%;
+    }
+
+    .tituloDaInformacao{
+        font-size: 34px;
+        font-weight: 400;
+    }
+
+    .textoDaInformacao{
+        font-size: 21px;
+        font-weight: 300;
+    }
+
+    .setaEsquerda, .setaDireita{
+        width: 46px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .informacao{
+        top: 70px;
+        left: 55px;
+        width: 59%;
+        height: 66%;
+        padding: 6%;
+    }
+
+    .seta{
+        margin-top: 92%;
+    }
+
+    .tituloDaInformacao{
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .textoDaInformacao{
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .botaoDaInformacao{
+        font-size: 20px;
+        color: #C50000;
+        font-weight: 700;
+    }
+
+    .setaEsquerda, .setaDireita{
+        width: 46px;
+    }
+}
